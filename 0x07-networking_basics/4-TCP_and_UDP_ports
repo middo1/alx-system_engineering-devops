@@ -1,2 +1,4 @@
 #!/bin/bash
+# Displays all listen ports
+
 netstat -nl
