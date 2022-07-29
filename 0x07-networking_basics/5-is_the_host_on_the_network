@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Lets sha see sha
+# Ping an ip address recieved as an argument 5 times
 
 if [ $1 ] ; then
 	ping -c 5 $1
