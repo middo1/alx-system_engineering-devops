@@ -1,3 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# changes the ip address of the localhost and facebook
+
 ifconfig localhost 127.0.0.2
 ifconfig facebook.com 8.8.8.8
