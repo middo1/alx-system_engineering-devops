@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Lets sha see sha
+
 if [ $1 ] ; then
 	ping -c 5 $1
 else
