@@ -18,5 +18,6 @@ def top_ten(subreddit):
         print('None')
         return
     results = res.json().get("data")
-    [print(child.get("data").get("title"))
-     for child in results.get("children")]
+    ress = [child.get("data").get("title")
+            for child in results.get("children")]
+    [print(c) for c in sorted(ress)]
